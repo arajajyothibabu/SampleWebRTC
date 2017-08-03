@@ -10,7 +10,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
 var config = {
     //wssHost: 'ws://localhost:3000',
-    wssHost: 'ws://samplewebrtc.herokuapp.com'
+    wssHost: 'wss://samplewebrtc.herokuapp.com'
 };
 var localVideoElem = null,
     remoteVideoElem = null,
